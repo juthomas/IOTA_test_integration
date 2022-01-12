@@ -36,6 +36,7 @@ const DragAndDropItem = ({
       >
         {targetKeys?.map((target, index) => 
           <DropInfoTarget
+            key={index}
             ckey={`${ckey}_${index}`}
             targetKey={target.key}
             defaultvalue={
