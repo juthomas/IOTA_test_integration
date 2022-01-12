@@ -8,7 +8,7 @@ const LevelStars = ({ total, selected }) => {
       <i
         key={i}
         className={`fa fa-star ${
-          i <= selected ? 'star-checked' : 'star-not-checked'
+          i < selected ? 'star-checked' : 'star-not-checked'
         }`}
       />
     );
