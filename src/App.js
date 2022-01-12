@@ -5,6 +5,7 @@ import NavBar from './IotaComponents/Molecules/NavBar';
 import NavBarStudentProfil from './IotaComponents/Molecules/NavBarStudentProfil';
 import ActivityHeader from './IotaComponents/Molecules/ActivityHeader';
 import PageActivity from './IotaComponents/Molecules/PageActivity';
+import musee from "./IotaComponents/assets/Background/illustration_museum.png";
 import './IotaComponents/layout.css';
 import './IotaComponents/iota-components.css';
 import './IotaComponents/common.css';
@@ -36,6 +37,7 @@ const App = () => {
       <PageActivity>
           <div className="activity-level-header">
             <ActivityHeader
+              image={musee}
               level={1}
               title={"TEST"}
                 instruction={'Il faut que tu trouves comment complèter et assembler les composants pour suivre le modèle présent dans le dossier model_integration.'}
