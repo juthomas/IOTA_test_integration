@@ -1,5 +1,4 @@
 import Level from '../activity/Level';
-import MysteryComponent from '../activity/MysteryComponent';
 import CarouselDragAndDrop from '../../IotaComponents/Carousel/CarouselDragAndDrop';
 
 /** assets */
