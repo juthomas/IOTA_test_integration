@@ -39,8 +39,8 @@ const App = () => {
             <ActivityHeader
               image={musee}
               level={1}
-              title={"TEST"}
-                instruction={'Il faut que tu trouves comment complèter et assembler les composants pour suivre le modèle présent dans le dossier model_integration.'}
+              title={"Rififi au musée"}
+              instruction={"Retrouve le titre et l'artiste des œuvres d'art en utilisant la recherche inversée et mets-en une en fond d'écran."}
             />
           </div>
         <div
