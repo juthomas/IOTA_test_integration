@@ -72,7 +72,7 @@ const level = {
             content: {
               fields: [{ key: 'title', placeHolder: "Titre de l'oeuvre" }],
               itemArray: ImageArray,
-              stepperDots: false,
+              stepperDots: true,
               shuffle: true,
               check: checkItemIsSolo,
             },
@@ -89,7 +89,7 @@ const level = {
             component: CarouselDragAndDrop,
             content: {
               fields: [{ key: 'author', placeHolder: "Nom de l'auteur" }],
-              stepperDots: false,
+              stepperDots: true,
               itemArray: ImageArray,
               check: checkItemIsSolo,
             },
@@ -108,7 +108,7 @@ const level = {
                   { key: 'author', placeHolder: "Nom de l'auteur" },
                   { key: 'title', placeHolder: "Titre de l'oeuvre" },
                 ],
-                stepperDots: false,
+                stepperDots: true,
                 download: true,
                 itemArray: ImageArray,
                 check: checkInputFilled,
