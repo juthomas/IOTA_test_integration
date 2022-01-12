@@ -1,5 +1,6 @@
 import Level from '../activity/Level';
 import MysteryComponent from '../activity/MysteryComponent';
+import CarouselDragAndDrop from '../../IotaComponents/Carousel/CarouselDragAndDrop';
 
 /** assets */
 import Bashkirtseff from '../assets/Ressources/Bashkirtseff_-_The_Meeting.jpg';
@@ -41,7 +42,7 @@ const level = {
         stop: true,
         content: [
           {
-            component: MysteryComponent,
+            component: CarouselDragAndDrop,
             content: {
               fields: [{ key: 'title', placeHolder: "Titre de l'oeuvre" }],
               itemArray: ImageArray,
@@ -59,7 +60,7 @@ const level = {
         stop: true,
         content: [
           {
-            component: MysteryComponent,
+            component: CarouselDragAndDrop,
             content: {
               fields: [{ key: 'author', placeHolder: "Nom de l'auteur" }],
               stepperDots: false,
@@ -75,7 +76,7 @@ const level = {
           "Des étiquettes ont totalement disparu ! C'est à toi de les créer en t'aidant de la recherche inversée.",
           content: [
             {
-              component: MysteryComponent,
+              component: CarouselDragAndDrop,
               content: {
                 fields: [
                   { key: 'author', placeHolder: "Nom de l'auteur" },
