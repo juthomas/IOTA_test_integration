@@ -7,6 +7,9 @@ import Bashkirtseff from '../assets/Ressources/Bashkirtseff_-_The_Meeting.jpg';
 import Berthe from '../assets/Ressources/Berthe_Morisot_-_La_Lecture_(1873).jpg';
 import Maria from '../assets/Ressources/María_Blanchard_MNCARS_Madrid.jpg';
 import Shoen from '../assets/Ressources/Shoen_Uemura_-_Firefly.jpg';
+import Tamara from '../assets/Ressources/Tamara_de_Lempicka,_Autoportrait_(Tamara_in_a_Green_Bugatti).jpeg';
+import Valadon from '../assets/Ressources/Valadon-Marie-Coca_mbalyon.jpg';
+import Kandinsky from '../assets/Ressources/Vassily_Kandinsky,_1913_-_Composition_6.jpg';
 
 import { checkItemIsSolo, checkInputFilled } from '../../IotaComponents/Carousel/check-images';
 
@@ -29,6 +32,30 @@ const ImageArray = [
     img: Maria,
     author: 'María Blanchard',
   },
+  {
+    id: 3,
+    title: 'Firefly',
+    img: Shoen,
+    author: 'Shōen Uemura',
+  },
+  {
+    id: 4,
+    title: 'Autoportrait',
+    img: Tamara,
+    author: 'Tamara de Lempicka',
+  },
+  {
+    id: 5,
+    title: 'Marie Coca et sa fille',
+    img: Valadon,
+    author: 'Suzanne Valadon',
+  },
+  {
+    id: 6,
+    title: 'Composition VI',
+    img: Kandinsky,
+    author: 'Vassily Kandinsky',
+  }
 ];
 
 const level = {
