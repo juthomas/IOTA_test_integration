@@ -6,7 +6,7 @@ import CarouselDragAndDrop from '../../IotaComponents/Carousel/CarouselDragAndDr
 import Bashkirtseff from '../assets/Ressources/Bashkirtseff_-_The_Meeting.jpg';
 import Berthe from '../assets/Ressources/Berthe_Morisot_-_La_Lecture_(1873).jpg';
 import Maria from '../assets/Ressources/María_Blanchard_MNCARS_Madrid.jpg';
-import Shoehm from '../assets/Ressources/Shoen_Uemura_-_Firefly.jpg';
+import Shoen from '../assets/Ressources/Shoen_Uemura_-_Firefly.jpg';
 
 import { checkItemIsSolo, checkInputFilled } from '../../IotaComponents/Carousel/check-images';
 
