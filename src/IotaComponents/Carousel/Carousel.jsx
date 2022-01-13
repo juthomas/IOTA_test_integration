@@ -56,7 +56,7 @@ const Carousel = ({
       className="col-flex-centered"
       style={{ width: '100%', height: '100%' }}
     >
-      <div className="row-flex-centered">
+      <div className="row-flex-evenly">
         <div
           id="carousel-arrows"
           className="row-flex-centered"
