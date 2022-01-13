@@ -113,7 +113,7 @@ const level = {
                 itemArray: ImageArray,
                 check: checkInputFilled,
               },
-              actions: ['SAVE_PROGRESS', 'NEXT_STEP'],
+              actions: ['SAVE_PROGRESS'],
             },
           ],
       },
