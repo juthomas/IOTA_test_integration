@@ -34,7 +34,7 @@
 }
 .activity-level-header {
 	width: 20vw;
-	height: 101vh;
+	height: 100%;
 	display: flex;
 	justify-content: space-around;
 	background-color: var(--iota-realylittle-orange-color);

@@ -12,15 +12,13 @@ const ImageItem = ({
 }) => {
   return (
     <div className="col-flex-start"
-      style={{ height: '100%' }}
+      style={{ height: '300px' }}
     >
       <img
         key={`ImageItem_${ckey}`}
-        style={{ minHeight: '400px' }}
         src={source}
         alt={alt}
         className="carousel-image"
-        style={selected ? ({ border: '6px solid #555', borderColor: '#16cfac', borderRadius: '10px' }) : null}
       />
       {download ? (
         <div

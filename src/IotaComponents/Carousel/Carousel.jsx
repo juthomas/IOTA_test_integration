@@ -124,7 +124,7 @@ const Carousel = ({
         <div className="row-flex-centered" />
       </div>
       {stepperDots ? (
-        <div className="m-3">
+        <div style={{ marginTop: '1rem' }}>
           <StepperDots
             step={carouselStep % 6}
             totalSteps={

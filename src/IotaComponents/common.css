@@ -10,10 +10,11 @@
 /* BASIC POSITION */
 /* activity window */
 .activity-window-position {
+	overflow: hidden;
 	min-width: 400px;
 	width: 95%;
 	position: relative;
-	margin: 2% auto;
+	margin: 2% 2% 0;
 }
 /*hard center*/
 .content-hard-centered {
