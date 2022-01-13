@@ -300,6 +300,8 @@
     background-color: var(--iota-light-orange-color);
     border-radius: 50px;
     padding: 20px;
+    margin-right: 5px;
+    box-shadow: 5px 5px 0 rgb(253, 197, 181);
 }
 .button-download {
   border: 2px dotted var(--iota-grey-blue-color);
