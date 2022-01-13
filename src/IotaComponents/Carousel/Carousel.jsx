@@ -3,7 +3,6 @@ import { PropTypes } from 'prop-types';
 import useWindowSize from '../../Hooks/useWindowSize';
 import ButtonArrow from '../Atoms/Buttons/ButtonArrow';
 import StepperDots from '../Atoms/StepperDots';
-import { onDownload } from './check-images';
 
 const Carousel = ({
   itemNb,
