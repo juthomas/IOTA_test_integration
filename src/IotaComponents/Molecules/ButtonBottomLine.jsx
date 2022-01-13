@@ -16,7 +16,7 @@ const ButtonBottomLine = ({
   return (
     <div className="col-flex-start my-3">
       <div className="row-flex-between">
-        <div className="mx-2" style={{ opacity: `${disablePrev ? '0' : '1'}` }}>
+        <div className="mx-2" style={{ opacity: `${disablePrev ? '0.4' : '1'}` }}>
           <ButtonPrec onValidate={onPrev} disabled={disablePrev} 
           text={prevText ? prevText : 'Précédent'} />
         </div>
