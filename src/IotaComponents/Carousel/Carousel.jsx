@@ -53,7 +53,7 @@ const Carousel = ({
 
   return (
     <div
-      className="col-flex-centered"
+      className="col-flex-between"
       style={{ width: '100%', height: '100%' }}
     >
       <div className="row-flex-evenly">

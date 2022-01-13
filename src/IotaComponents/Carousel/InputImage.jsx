@@ -21,7 +21,7 @@ const InputImage = ({
 
   return (
     <div key={`InputImage_${ckey}`} className="col-flex-between"
-      style={{ height: '100%' }}
+      style={{ height: '520px' }}
     >
       <ImageItem
         ckey={`${ckey}_image`}
@@ -31,7 +31,7 @@ const InputImage = ({
         download={download}
         canDl={canDl}
       />
-      <div key={`DragAndDropItem_${ckey}`} className="row-flex-centered mt-4"
+      <div key={`DragAndDropItem_${ckey}`} className="col-flex-end mt-4"
         style={{ width: '100%' }}
       >
         {inputs?.map((input, index) => <InputTextWithBorders
@@ -46,7 +46,7 @@ const InputImage = ({
       </div>
       {download ? (
         <div
-          className="row-flex-centered mt-4"
+          className="row-flex-centered"
           style={{ width: '100%' }}
         >
           <ButtonDownload data={source} /*onValidate={onDownload}*/ />
