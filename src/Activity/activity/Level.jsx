@@ -71,7 +71,7 @@ const Level = ({
                       () => actions['NEXT_STEP']())
                   : () => actions['NEXT_STEP']()
               }
-              thisIsTheEnd={step === data.steps[step].length}
+              thisIsTheEnd={step === data.steps.length - 1}
             />
           </div>
         </div>
