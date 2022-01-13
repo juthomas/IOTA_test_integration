@@ -39,7 +39,7 @@ const InputImage = ({
           ckey={`InputImage_${ckey}_${input.key}_${index}`}
           value={input.value}
           name={input.key}
-          placeholder={input.placeholder}
+          placeholder={input.placeHolder}
           onChange={(value) => onChange(value)}
         />
         )}
