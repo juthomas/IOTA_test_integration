@@ -16,10 +16,11 @@ const InputTextWithBorders = ({
         ckey={ckey}
         type="text"
         name={name}
-        defaultValue={value}
+        value={value}
         placeholder={placeholder}
         id=""
-        onChange={onChange}
+        onChange={(event) => {
+          onChange({key: name, text: event.target.value})}}
         className='input-text-with-border' />
     </div>
   );
