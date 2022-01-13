@@ -19,7 +19,7 @@ const ActivityHeader = ({
         <div className="level-header-top">
           <div className="mx-auto my-2">
             <img
-              style={{ width: '90px', height: '85px' }}
+              style={{ width: '105px', height: '100px' }}
               src={image}
               alt="Illustration de l'activité"
             />
