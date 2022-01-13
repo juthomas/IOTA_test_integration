@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import ImageItem from './ImageItem';
 import InputTextWithBorders from '../Atoms/InputTextWithBorders';
+import ButtonDownload from '../Atoms/Buttons/ButtonDownload';
+
 
 const InputImage = ({
   ckey,
@@ -13,6 +15,7 @@ const InputImage = ({
   canDl,
   /** input */
   onChange,
+  onDownload,
   inputs
 }) => {
 
@@ -21,13 +24,16 @@ const InputImage = ({
       style={{ height: '100%' }}
     >
       <ImageItem
+        ckey={`${ckey}_image`}
         source={source}
         alt={alt}
         selected={selected}
         download={download}
         canDl={canDl}
       />
-      <div className="my-3">
+      <div key={`DragAndDropItem_${ckey}`} className="row-flex-centered mt-4"
+        style={{ width: '100%' }}
+      >
         {inputs?.map((input, index) => <InputTextWithBorders
           key={`InputImagecall_${ckey}_${input.key}_${index}`}
           ckey={`InputImage_${ckey}_${input.key}_${index}`}
@@ -38,6 +44,19 @@ const InputImage = ({
         />
         )}
       </div>
+      {download ? (
+        <div
+          className="row-flex-centered mt-4"
+          style={{ width: '100%' }}
+        >
+          <ButtonDownload data={source} /*onValidate={onDownload}*/ />
+        </div>
+      ) : (
+        <div
+          className="col-flex-centered"
+          style={{ width: '100%', height: '70px' }}
+        />
+      )}
     </div>
   );
 };
