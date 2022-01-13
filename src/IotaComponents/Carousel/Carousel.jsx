@@ -126,10 +126,8 @@ const Carousel = ({
       {stepperDots ? (
         <div style={{ marginTop: '1rem' }}>
           <StepperDots
-            step={carouselStep % 6}
-            totalSteps={
-              carouselItem.length < 6 ? carouselItem.length - (carouselNb - 1) : 6
-            }
+            step={carouselStep}
+            totalSteps={carouselItem.length - (carouselNb - 1)}
           />
         </div>
       ) : null}
