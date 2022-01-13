@@ -1,5 +1,6 @@
 import Level from '../activity/Level';
 import CarouselDragAndDrop from '../../IotaComponents/Carousel/CarouselDragAndDrop';
+import CarouselInput from '../../IotaComponents/Carousel/CarouselInput';
 
 /** assets */
 import Bashkirtseff from '../assets/Ressources/Bashkirtseff_-_The_Meeting.jpg';
@@ -102,7 +103,7 @@ const level = {
           "Des étiquettes ont totalement disparu ! C'est à toi de les créer en t'aidant de la recherche inversée.",
           content: [
             {
-              component: CarouselDragAndDrop,
+              component: CarouselInput,
               content: {
                 fields: [
                   { key: 'author', placeHolder: "Nom de l'auteur" },
